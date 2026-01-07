@@ -30,9 +30,11 @@ Upon reviewsing the EDA, Generated key financial indicators:
 -Volatility & Returns: Daily percentage change and rolling standard deviation.
 
 *Sequencing for Time Series*
+
 For RNN/LSTM/CNN models, data was transformed into supervised learning format using a 30-day look-back window (time_steps=30).
 
 *Model Implementation & Training*
+
 Four distinct neural network architectures were built and trained with an 80/10/10 train/validation/test split:
 
 -Residual MLP: A deep feedforward network with residual blocks, L2 regularization, and dropout.
